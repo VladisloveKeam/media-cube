@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f95458-19ba-47b9-b53a-1f2bf8777f33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +31,11 @@
           <entry key="Procfile" value="2" />
           <entry key="env" value="13" />
           <entry key="example" value="3" />
+          <entry key="gitignore" value="1" />
           <entry key="js" value="397" />
           <entry key="json" value="1" />
           <entry key="log" value="3" />
+          <entry key="md" value="1" />
           <entry key="php" value="392" />
           <entry key="scss" value="1" />
           <entry key="ts" value="4" />
@@ -45,8 +48,9 @@
           <entry key="Blade" value="6" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="397" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="386" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="1" />
           <entry key="TypeScript" value="4" />
           <entry key="Vue.js" value="434" />
@@ -57,8 +61,10 @@
           <entry key="dummy" value="1" />
           <entry key="env" value="42" />
           <entry key="example" value="9" />
+          <entry key="gitignore" value="11" />
           <entry key="js" value="7464" />
-          <entry key="php" value="5257" />
+          <entry key="md" value="487" />
+          <entry key="php" value="5261" />
           <entry key="vue" value="10585" />
         </counts>
       </usages-collector>
@@ -67,8 +73,9 @@
           <entry key=".env file" value="51" />
           <entry key="Blade" value="187" />
           <entry key="JavaScript" value="7464" />
-          <entry key="PHP" value="5070" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Markdown" value="487" />
+          <entry key="PHP" value="5074" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="Vue.js" value="10585" />
         </counts>
       </usages-collector>
@@ -89,9 +96,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168" />
+            <state relative-caret-position="308">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -155,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Services/AbstractService.php" />
-        <option value="$PROJECT_DIR$/resources/js/vuex/store.js" />
-        <option value="$PROJECT_DIR$/resources/js/store/modules/departments.js" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/js/store/index.js" />
@@ -206,6 +212,9 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -339,17 +348,6 @@
               <item name="mobi-cube" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobi-cube" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mobi-cube" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobi-cube" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobi-cube" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobi-cube" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -404,12 +402,12 @@
       <workItem from="1549567316227" duration="20419000" />
       <workItem from="1549625848307" duration="13021000" />
       <workItem from="1549653355564" duration="31105000" />
-      <workItem from="1549718666621" duration="35551000" />
+      <workItem from="1549718666621" duration="37967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100096000" />
+    <option name="totallyTimeSpent" value="102512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,9 +420,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -440,7 +437,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3308026" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3308026" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,14 +452,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/js/models/ErrorBag.js" />
-    <entry file="file://$PROJECT_DIR$/app/Services/AbstractService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -851,7 +840,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168" />
+        <state relative-caret-position="364">
+          <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="280">
+            <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
       </provider>
     </entry>
   </component>
