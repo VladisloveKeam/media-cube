@@ -63628,7 +63628,7 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-window.axios.baseUrl = "http://127.0.0.1:8000";
+window.axios.baseUrl = "https://sitename.com";
 /**
  * Next we will register the CSRF Token as a common header with Axios so that
  * all outgoing HTTP requests automatically have it attached. This is just
@@ -63816,6 +63816,7 @@ var Department = function Department() {
   this.id = null;
   this.title = null;
   this.employees_count = null;
+  this.employees_max_salary = null;
 
   if (data) {
     Object.assign(this, data);
