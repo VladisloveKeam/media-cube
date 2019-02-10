@@ -52,6 +52,7 @@
         created(){
             this.fetchEmployee({id:this.id}).then(() => {
                 this.form = Object.assign(this.form, this.employee);
+                this.form.departments = this.form.departments.map(item => item.id);
             }).catch(e => {
                 this.$router.push({name: 'notfound'});
             });
