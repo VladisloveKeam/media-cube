@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f95458-19ba-47b9-b53a-1f2bf8777f33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e6f95458-19ba-47b9-b53a-1f2bf8777f33" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
-          <entry key="env" value="8" />
+          <entry key="env" value="9" />
           <entry key="example" value="2" />
           <entry key="js" value="393" />
           <entry key="json" value="1" />
@@ -40,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="10" />
+          <entry key=".env file" value="11" />
           <entry key="Blade" value="6" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="393" />
@@ -54,7 +52,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="env" value="40" />
+          <entry key="env" value="42" />
           <entry key="example" value="9" />
           <entry key="js" value="7464" />
           <entry key="php" value="5257" />
@@ -63,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="49" />
+          <entry key=".env file" value="51" />
           <entry key="Blade" value="187" />
           <entry key="JavaScript" value="7464" />
           <entry key="PHP" value="5070" />
@@ -88,10 +86,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/lang/ru/exceptions.php">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="168">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -161,7 +159,6 @@
         <option value="$PROJECT_DIR$/resources/js/vuex/store.js" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/departments.js" />
         <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/js/store/index.js" />
@@ -207,6 +204,7 @@
         <option value="$PROJECT_DIR$/resources/js/pages/department/DepartmentIndexPage.vue" />
         <option value="$PROJECT_DIR$/app/Traits/ApiExceptionHandlerTrait.php" />
         <option value="$PROJECT_DIR$/resources/lang/ru/exceptions.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -337,16 +335,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="media-cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobi-cube" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobi-cube" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="media-cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobi-cube" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobi-cube" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="media-cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobi-cube" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobi-cube" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
@@ -405,12 +403,12 @@
       <workItem from="1549567316227" duration="20419000" />
       <workItem from="1549625848307" duration="13021000" />
       <workItem from="1549653355564" duration="31105000" />
-      <workItem from="1549718666621" duration="32029000" />
+      <workItem from="1549718666621" duration="33049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96574000" />
+    <option name="totallyTimeSpent" value="97594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,13 +453,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/pages/department/DepartmentShowPage.vue" />
     <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -840,6 +831,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
