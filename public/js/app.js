@@ -2489,6 +2489,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       id: this.id
     }).then(function () {
       _this2.form = Object.assign(_this2.form, _this2.employee);
+      _this2.form.departments = _this2.form.departments.map(function (item) {
+        return item.id;
+      });
     }).catch(function (e) {
       _this2.$router.push({
         name: 'notfound'
