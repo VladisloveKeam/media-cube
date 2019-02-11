@@ -17,7 +17,11 @@ composer install
 ```
 
 ```
-composer dump-autload
+composer dump-autoload
+```
+
+```
+php artisan key:generate
 ```
 
 ```
@@ -36,12 +40,15 @@ to development:
 npm run watch
 ```
 
-[Demo](http://pacific-wildwood-51090.herokuapp.com/grid) 
+[Demo on Heroku](http://pacific-wildwood-51090.herokuapp.com/grid) 
 
 ## Deployment
 
 * [NGINX](https://docs.nginx.com/) - as web-server
 * [PHP-FPM](https://php-fpm.org/) - FastCGI Process Manager
+* [PHP 7.2](https://php.org/) - as project programming lang
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime built
+
 
 ## Built With
 
