@@ -10,7 +10,7 @@ The completed test for MediaCube company.
 
 ### Installing
 
-Start your web server, brings to project root and run the following commands:
+Start your web server, navigate to project root and run the following commands:
 
  * Change the APP_URL and MIX_APP_URL variables to your host:
 ```
