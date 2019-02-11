@@ -13,6 +13,10 @@ The completed test for MediaCube company.
 Start your web server, brings to project root and run the following commands:
 
 ```
+cp .env .env.exapmle
+```
+Change the APP_URL and MIX_APP_URL variables to your host.
+```
 composer install
 ```
 
