@@ -12,10 +12,11 @@ The completed test for MediaCube company.
 
 Start your web server, brings to project root and run the following commands:
 
+ * Change the APP_URL and MIX_APP_URL variables to your host:
 ```
 cp .env .env.exapmle
 ```
-Change the APP_URL and MIX_APP_URL variables to your host.
+ * Than you need to type this:
 ```
 composer install
 ```
@@ -35,11 +36,11 @@ php artisan migrate
 ```
 npm install
 ```
-to build:
+ * to build:
 ```
 npm run build
 ```
-to development:
+ * to development:
 ```
 npm run watch
 ```
